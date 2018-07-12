@@ -1,0 +1,19 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main(){
+	int panjang, lebar;
+	float luas;
+	cout<<"input Luas Persegi Panjang"<<endl;
+	cout<<"panjang persegi panjang : ";
+	cin>>panjang;
+	cout<<"lebar persegi panjang : ";
+	cin>>lebar;
+	
+	luas = panjang*lebar;
+	
+	cout<<"\nluas persegi panjang";
+	cout<<"\nluas = "<<luas;
+	
+	getch();
+}
